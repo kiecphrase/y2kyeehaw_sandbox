@@ -36,6 +36,11 @@
 
                     </div>
                     <div id="user_post" class="flextall major">
+                        <div id="posts_nav">
+                            <a href="#" class="nav_item">posts</a>
+                            <a href="#" class="nav_item">projects</a>
+                            <a href="#" class="nav_item">pictures</a>
+                        </div>
                         <div class="post font">
                             <p class="info">1/1/2026</p>
                             <p>this is a fake user post that is fake and not real at all. This is wide and that's deliberate</p>
@@ -52,9 +57,10 @@
 
                         <div class="topost">
                             <form action="#">
-                                <input type="text" id="post" class="hold">
+                                <textarea type="text" id="post" class="hold"></textarea>
                                 <br>
-                                <input type="image" id="postimage" value="image">
+                                <input type="file" id="postimage" value="image" accept="image/png, image/jpg, image/jpeg">
+                                <br>
                                 <br>
                                 <input type="submit" value="Submit">
                             </form>

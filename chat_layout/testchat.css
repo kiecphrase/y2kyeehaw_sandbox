@@ -1,0 +1,140 @@
+/* GENERAL */
+body{
+    background-color: bisque;
+}
+
+/* STRUCTURE */
+.abs_holder{
+    position: fixed;
+    left: 2%;
+    top: 2%;
+    width: 97%;
+}
+
+.website_navnav{
+    position: relative;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.nav_item{
+    padding-right: 0.75rem;
+    font-size: 0.95rem;
+    text-decoration: underline dotted;
+}
+
+.nav_item:hover{
+    padding-right: 0.65rem;
+    font-size: 1rem;
+    text-decoration: underline double;
+}
+
+.usrn{
+    font-size: 1.15rem;
+}
+
+.usrn:hover{
+    font-size: 1.15rem;
+}
+
+.profile_main{
+    position: relative;
+    width: 100%;
+}
+.flexwide{
+    width: 100;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+.flextall{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: stretch;
+}
+.major{
+    flex-grow: 3;
+}
+
+.minor{
+    flex-grow: 1;
+}
+
+.profile_pic{
+    width: 15rem;
+    height: 15rem;
+}
+
+.post{
+    width: 75%;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    padding: 4px;
+    border: 2px solid black;
+}
+
+.postbutton{
+    font-size: 0.75rem;
+    padding: 2px;
+    background-color: cadetblue;
+    text-decoration: none;
+    color: black;
+}
+
+.postbutton:hover{
+    font-size: 0.75rem;
+    padding: 2px;
+    background-color: green;
+    text-decoration: none;
+    color: black;
+}
+
+.topost{
+    width: 75%;
+    border: 2px solid burlywood;
+    padding: 0.2rem;
+    background-color: blanchedalmond;
+}
+
+.info{
+    font-size: 0.5rem;
+}
+
+.hold{
+    width: 80%;
+    height: 3rem;
+}
+
+.postuserimg{
+    width: 4rem;
+    height: 4rem;
+}
+
+.chat{
+    width: 60%;
+    justify-content: flex-start;
+}
+
+.chatmessage{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    min-width: 50%;
+    max-width: 90%;
+    margin: 0.25rem;
+    height: auto;
+}
+
+.chattext{
+    margin: 0.5rem;
+    height: auto;
+}
+
+.chatinfo{
+    margin: 0.5rem;
+    font-size: 0.5rem;
+}
